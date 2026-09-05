@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">BTC Year-End 2026 BHRIGU Base Case</title>
+  <desc id="desc">BHRIGU base hypothesis for Bitcoin year-end 2026: 90K to 98K, confirmation above 82.8K, main timing window late November to mid December, weakens below 76.2K and invalidates on sustained loss of 72K.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="72%">
+      <stop offset="0%" stop-color="#12140f"/>
+      <stop offset="58%" stop-color="#0a0c0a"/>
+      <stop offset="100%" stop-color="#07090c"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e0c47f" stop-opacity="0.58"/>
+      <stop offset="55%" stop-color="#c8a45a" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#c8a45a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}.serif{font-family:Georgia,'Times New Roman',serif}
+      .ivory{fill:#f1efe9}.gold{fill:#c8a45a}.blue{fill:#62a8d8}.violet{fill:#9a89d1}.danger{fill:#c96d70}
+      .caps{letter-spacing:5px}.smallcaps{letter-spacing:3px}.thin{font-weight:400}.bold{font-weight:700}
+    </style>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect x="36" y="34" width="1128" height="1132" rx="18" fill="none" stroke="#2b2e27" stroke-width="1"/>
+
+  <text x="58" y="65" class="sans ivory caps" font-size="17">BHRIGU  ·  MARKET COSMOGRAPHER</text>
+  <line x1="520" y1="57" x2="1130" y2="57" stroke="#c8a45a" stroke-width="1.5" opacity="0.78"/>
+  <circle cx="1133" cy="57" r="5" fill="#e0c47f" filter="url(#glow)"/>
+
+  <text x="600" y="160" text-anchor="middle" class="serif ivory bold" font-size="72">BTC YEAR-END 2026</text>
+  <text x="600" y="233" text-anchor="middle" class="serif gold bold smallcaps" font-size="45">BHRIGU BASE CASE</text>
+  <line x1="270" y1="275" x2="430" y2="275" stroke="#c8a45a" stroke-width="2" opacity="0.85"/>
+  <text x="600" y="284" text-anchor="middle" class="sans ivory caps" font-size="24">RECOVERY CONTINUES</text>
+  <line x1="770" y1="275" x2="930" y2="275" stroke="#c8a45a" stroke-width="2" opacity="0.85"/>
+
+  <circle cx="560" cy="515" r="240" fill="none" stroke="#66695f" stroke-width="1" opacity="0.26" stroke-dasharray="3 7"/>
+  <circle cx="560" cy="515" r="170" fill="none" stroke="#777b70" stroke-width="1" opacity="0.22" stroke-dasharray="3 8"/>
+  <circle cx="560" cy="515" r="110" fill="url(#goldGlow)" opacity="0.72"/>
+  <line x1="560" y1="298" x2="560" y2="712" stroke="#c8a45a" stroke-width="1" opacity="0.26"/>
+  <line x1="340" y1="515" x2="790" y2="515" stroke="#8a8f82" stroke-width="1" opacity="0.16"/>
+
+  <circle cx="170" cy="650" r="95" fill="none" stroke="#5f635a" stroke-width="1" opacity="0.22" stroke-dasharray="3 6"/>
+  <circle cx="170" cy="650" r="18" fill="#10120f" stroke="#e0c47f" stroke-width="4"/>
+  <circle cx="170" cy="650" r="8" fill="#e0c47f" filter="url(#glow)"/>
+  <text x="170" y="565" text-anchor="middle" class="sans ivory smallcaps bold" font-size="19">NOW</text>
+  <text x="170" y="618" text-anchor="middle" class="serif ivory bold" font-size="50">~ $80K</text>
+
+  <path d="M188 640 C300 625 345 578 405 505 C460 438 505 402 555 397" fill="none" stroke="#d6b46a" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M540 385 L565 397 L545 417" fill="none" stroke="#e0c47f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="574" cy="395" r="26" fill="#10120f" stroke="#e0c47f" stroke-width="3"/>
+  <circle cx="574" cy="395" r="12" fill="#e0c47f" filter="url(#glow)"/>
+
+  <rect x="585" y="345" width="545" height="270" rx="36" fill="#0d0f0d" fill-opacity="0.9" stroke="#6b5c34" stroke-width="1.5"/>
+  <text x="855" y="400" text-anchor="middle" class="sans gold caps" font-size="20">BHRIGU FORECAST</text>
+  <text x="855" y="505" text-anchor="middle" class="serif ivory bold" font-size="88" filter="url(#glow)">$90K–$98K</text>
+  <text x="855" y="565" text-anchor="middle" class="sans gold caps" font-size="25">RECOVERY CONTINUES</text>
+
+  <rect x="55" y="765" width="330" height="220" rx="18" fill="#0c0f11" stroke="#62a8d8" stroke-width="2"/>
+  <rect x="55" y="765" width="10" height="220" rx="5" fill="#62a8d8"/>
+  <circle cx="120" cy="830" r="31" fill="none" stroke="#62a8d8" stroke-width="2"/>
+  <path d="M105 842 V831 M119 842 V816 M133 842 V804" stroke="#62a8d8" stroke-width="5" stroke-linecap="round"/>
+  <text x="165" y="823" class="sans blue bold smallcaps" font-size="18">KEY CONFIRMATION</text>
+  <text x="220" y="922" text-anchor="middle" class="serif ivory bold" font-size="54">&gt; $82.8K</text>
+
+  <rect x="435" y="765" width="330" height="220" rx="18" fill="#0e0c12" stroke="#9a89d1" stroke-width="2"/>
+  <rect x="435" y="765" width="10" height="220" rx="5" fill="#9a89d1"/>
+  <circle cx="500" cy="830" r="31" fill="none" stroke="#9a89d1" stroke-width="2"/>
+  <circle cx="500" cy="830" r="16" fill="none" stroke="#9a89d1" stroke-width="3"/>
+  <path d="M500 819 V831 L510 838" fill="none" stroke="#9a89d1" stroke-width="3" stroke-linecap="round"/>
+  <text x="545" y="823" class="sans violet bold smallcaps" font-size="18">MAIN TIMING WINDOW</text>
+  <text x="600" y="895" text-anchor="middle" class="serif ivory bold" font-size="38">LATE NOV →</text>
+  <text x="600" y="941" text-anchor="middle" class="serif ivory bold" font-size="38">MID DEC</text>
+
+  <rect x="815" y="765" width="330" height="220" rx="18" fill="#110c0d" stroke="#c96d70" stroke-width="2"/>
+  <rect x="815" y="765" width="10" height="220" rx="5" fill="#c96d70"/>
+  <circle cx="880" cy="830" r="31" fill="none" stroke="#c96d70" stroke-width="2"/>
+  <path d="M880 806 L902 847 H858 Z" fill="none" stroke="#c96d70" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="880" y1="818" x2="880" y2="835" stroke="#c96d70" stroke-width="3"/>
+  <circle cx="880" cy="841" r="2.8" fill="#c96d70"/>
+  <text x="925" y="819" class="sans danger bold smallcaps" font-size="18">WEAKENS BELOW</text>
+  <text x="980" y="875" text-anchor="middle" class="serif ivory bold" font-size="44">~ $76.2K</text>
+  <line x1="855" y1="905" x2="1110" y2="905" stroke="#7f4043" stroke-width="1.5"/>
+  <text x="980" y="939" text-anchor="middle" class="sans ivory smallcaps" font-size="13">BASE CASE INVALIDATES ON</text>
+  <text x="980" y="965" text-anchor="middle" class="sans ivory smallcaps bold" font-size="15">SUSTAINED LOSS OF ~ $72K</text>
+
+  <line x1="58" y1="1035" x2="1140" y2="1035" stroke="#4b4f47" stroke-width="1.2" opacity="0.72"/>
+  <text x="58" y="1100" class="sans ivory caps" font-size="15">HYPOTHESIS, NOT ASSERTION  ·  NOT A TRADING SIGNAL</text>
+  <text x="1140" y="1094" text-anchor="end" class="serif ivory bold caps" font-size="24">BHRIGU</text>
+  <text x="1140" y="1124" text-anchor="end" class="sans ivory smallcaps" font-size="12">RESEARCH THROUGH TIME</text>
+</svg>
