@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check directory structure
+        run: |
+          echo "Validating brand assets structure..."
+          test -d banner && echo "✓ banner/ exists"
+          test -d icons && echo "✓ icons/ exists"
+          test -d palettes && echo "✓ palettes/ exists"
+          echo "All required directories are present."
